@@ -6,7 +6,7 @@ import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf/shelf_io.dart' as io;
 import 'package:supabase/supabase.dart';
 
-const _hostName = 'localhost';
+const _hostName = '0.0.0.0';
 
 void main(List<String> args) async {
   var parser = ArgParser()..addOption('port', abbr: 'p');
